@@ -1,0 +1,403 @@
+/* =========================================
+   PÁGINA SOBRE MÍ
+========================================= */
+
+.sobre-mi {
+    width: 100%;
+    background-color: #f8f9fb;
+}
+
+
+/* =========================================
+   CABECERA SOBRE MÍ
+   La imagen SOLO está aquí
+========================================= */
+
+.presentacion {
+    min-height: 520px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 80px 30px;
+
+    text-align: center;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("../img/retro-beach-pixels-stockcake.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+
+/* Contenido que está encima de la imagen */
+
+.presentacion-contenido {
+    max-width: 750px;
+}
+
+
+/* CONÓCEME */
+
+.presentacion .etiqueta {
+    color: white;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 15px;
+
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/* SOBRE MÍ */
+
+.presentacion h1 {
+    color: white;
+
+    font-size: 55px;
+
+    margin-bottom: 25px;
+
+    text-shadow: 3px 3px 6px black;
+}
+
+
+/* Texto */
+
+.presentacion p:not(.etiqueta) {
+    color: white;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/* =========================================
+   BLOQUES GENERALES
+========================================= */
+
+.bloque {
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 70px 30px;
+}
+
+
+.bloque > h2 {
+    color: #222;
+
+    font-size: 36px;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   FORMACIÓN ACADÉMICA
+========================================= */
+
+.formacion-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    align-items: start;
+}
+
+
+/* Cada formación */
+
+.formacion-item {
+    min-width: 0;
+}
+
+
+/* Fecha */
+
+.formacion-item .fecha,
+.experiencia .fecha {
+    display: block;
+
+    color: #6c63ff;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+
+/* Tarjeta blanca */
+
+.tarjeta-formacion {
+    min-height: 120px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border: 1px solid #dedede;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Título dentro de la tarjeta */
+
+.tarjeta-formacion h3 {
+    color: #222;
+
+    font-size: 20px;
+
+    line-height: 1.5;
+
+    margin: 0;
+}
+
+
+/* Centro */
+
+.formacion-item .centro {
+    color: #666;
+
+    font-size: 16px;
+
+    margin-top: 10px;
+
+    margin-bottom: 12px;
+}
+
+
+/* Descripción */
+
+.formacion-item > p:not(.centro) {
+    color: #666;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+
+/* =========================================
+   EXPERIENCIA PROFESIONAL
+========================================= */
+
+.experiencia-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+
+.experiencia {
+    background-color: white;
+
+    padding: 30px;
+
+    border-left: 4px solid #6c63ff;
+
+    border-radius: 0 12px 12px 0;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.experiencia h3 {
+    color: #222;
+
+    font-size: 22px;
+
+    margin-bottom: 8px;
+}
+
+
+.experiencia p {
+    color: #666;
+
+    line-height: 1.6;
+}
+
+
+.experiencia .empresa {
+    color: #555;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+
+/* =========================================
+   HABILIDADES
+========================================= */
+
+.lista-habilidades {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 12px;
+}
+
+
+.lista-habilidades span {
+    padding: 10px 18px;
+
+    background-color: #eeeefd;
+
+    color: #6c63ff;
+
+    border: 1px solid #dcd9ff;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   IDIOMAS
+========================================= */
+
+.idiomas {
+    max-width: 500px;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+
+.idiomas li {
+    background-color: white;
+
+    padding: 15px;
+
+    margin-bottom: 10px;
+
+    border-radius: 8px;
+
+    color: #555;
+
+    border: 1px solid #e5e5e5;
+}
+
+
+/* =========================================
+   TEXTO INTERESES
+========================================= */
+
+.texto-centro {
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    color: #666;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 800px) {
+
+    .formacion-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experiencia-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .presentacion {
+        min-height: 450px;
+
+        padding: 60px 20px;
+    }
+
+    .presentacion h1 {
+        font-size: 42px;
+    }
+
+    .presentacion p:not(.etiqueta) {
+        font-size: 16px;
+    }
+
+    .bloque {
+        padding: 50px 20px;
+    }
+
+    .bloque > h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .presentacion h1 {
+        font-size: 35px;
+    }
+
+    .tarjeta-formacion {
+        padding: 25px;
+    }
+
+    .tarjeta-formacion h3 {
+        font-size: 18px;
+    }
+
+}

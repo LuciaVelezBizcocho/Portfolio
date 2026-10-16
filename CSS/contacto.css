@@ -1,0 +1,79 @@
+.contacto {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 30px;
+}
+
+.contacto-intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 60px;
+}
+
+.contacto-intro h1 {
+    margin-bottom: 20px;
+}
+
+.contacto-intro p:not(.etiqueta) {
+    color: #666;
+    font-size: 17px;
+}
+
+.contacto-contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.datos-contacto {
+    background-color: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e5e5;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.datos-contacto h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.datos-contacto article {
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.datos-contacto article:last-child {
+    border-bottom: none;
+}
+
+.datos-contacto h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.datos-contacto p {
+    color: #666;
+}
+
+.datos-contacto a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.datos-contacto a:hover {
+    text-decoration: underline;
+}
+
+.contacto {
+    padding: 50px 20px;
+}
+
+.datos-contacto {
+    padding: 25px;
+}
